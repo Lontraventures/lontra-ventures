@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="mobile-web-app-capable" content="yes">
+
+    <!-- Copyright -->
+    <meta name="dcterms.dateCopyrighted" content="2017">
+    <meta name="dcterms.rightsHolder" content="Lontra Ventures, LLC">
+    <meta name="dcterms.rights" content="All Rights Reserved">
+    
+    <meta name="DC.title" ocntent="Lontra Ventures">
+    <meta name="author" content="Andrea Kalmans, Walter Kalmans">
+    <meta name="description" content="Lontra Ventures is a boutique consulting firm dedicated to improving the performance of life science and technology companies.">
+    <meta name="keywords" content="lontra ventures,ventures,lontra,consulting,consulting firm,life science,technology,business">
+
+    <link rel="icon" sizes="192x192" href="res/lv-icon.png">
+    <link rel="icon" sizes="128x128" href="res/lv-apple-icon.png">
+    <link rel="apple-touch-icon" sizes="128x128" href="res/lv-apple-icon.png">
+    <link rel="apple-touch-icon-precomposed" sizes="128x128" href="res/lv-apple-icon.png">
+    <link rel="manifest" href="manifest.json">
+
+    <title>Lontra Ventures</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+  <body ng-app="app" ng-controller="AppCtrl">
+    <div class="content">
+      <ng-view></ng-view>
+    </div>
+    <footer>
+      <div class="social">
+        
+      </div>
+      <div class="copy">
+        Copyright &copy; 2017 Lontra Ventures, LLC. All Rights Reserved
+      </div>
+    </footer>
+
+    <script src="js/angular.js"></script>
+    <script src="js/angular-route.min.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
