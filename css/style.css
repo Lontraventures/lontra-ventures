@@ -12,7 +12,7 @@ body {
 
 nav {
   align-items: center;
-  background-color: #fff;
+  background: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
   display: flex;
   flex-direction: row;
@@ -26,7 +26,7 @@ nav {
 
 footer {
   align-items: center;
-  background-color: #333;
+  background: #333;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
   color: #fff;
   display: flex;
@@ -106,7 +106,7 @@ nav .logo .mobile {
 
 .split-side .split-content {
   align-items: center;
-  background-color: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0.4);
   display: flex;
   flex-direction: column;
   height: 170px;
@@ -166,7 +166,7 @@ nav .logo .mobile {
 }
 
 .split-side .peek-button {
-  background-color: rgba(255, 255, 255, 0);
+  background: rgba(255, 255, 255, 0);
   border: thin solid white;
   border-radius: 50%;
   color: #fff;
@@ -179,7 +179,7 @@ nav .logo .mobile {
 }
 
 .split-side .peek-button:hover {
-  background-color: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.1);
   transform: scale(1.2);
 }
 
@@ -209,7 +209,7 @@ nav .logo .mobile {
 }
 
 section.block {
-  background-color: #fff;
+  background: #fff;
   font-family: 'Roboto', sans-serif;
   margin: auto;
   max-width: 800px;
@@ -234,4 +234,21 @@ section.block p {
   section.block p {
     padding: 8px;
   }
+}
+
+.social {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* height: 30px; */
+}
+
+.social a {
+  display: inline-block;
+  padding: 10px;
+}
+
+.social img {
+  height: 60px;
 }
