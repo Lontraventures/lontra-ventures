@@ -1,1 +1,87 @@
-Nothing here .. yet
+<!DOCTYPE html>
+<div class="split-container short">
+  <div class="split-side" onclick="">
+    <div class="split-content cover">
+      Technology
+    </div>
+    <img src="res/split-tech-bg.jpg">
+  </div>
+</div>
+<div class="profile container">
+  <div class="profile-content">
+    <div class="profile-picture">
+      <img src="res/profile-picture.png">
+    </div>
+    <div class="profile-info">
+      <header>Andrea Kalmans <span class="subhead">Leader, Technology Practice</span></header>
+      <content>
+        <section class="block">
+          <p>
+            Andrea leads the Technology Division, specializing in business development, go-to-market strategies and product innovation. Andrea has exceptional skills in identifying emerging trends and creatively connecting people to build business solutions.
+          </p>
+          <p>
+            Andrea has been successful connecting innovative product companies to national retailers and distributors, generating millions in incremental sales.
+          </p>
+
+          <p>
+            Prior to joining Lontra Ventures, Andrea managed a $700M business at Dell. Andrea’s key achievements included building robust and profitable partnerships with leading consumer electronics providers, driving innovation in product development and delivering fresh marketing and promotion strategies. Prior to Dell, Andrea worked at Salomon Smith Barney in NYC as an Investment Banking Analyst. She also completed internships at Goldman Sachs and a few Austin Ventures portfolio companies.
+          </p>
+          <p>
+            Andrea holds an MBA from the McCombs School of Business at the University of Texas and a Bachelor of Science in Finance from the University of Wisconsin where she graduated Phi Beta Kappa.
+          </p>
+        </section>
+      </content>
+      <footer class="social">
+        <a href="https://www.linkedin.com/in/akalmans" target="_blank">
+          <img src="res/icon_linkedin.png">
+        </a>
+        <a href="https://www.facebook.com/andrea.kalmans" target="_blank">
+          <img src="res/icon_facebook.png">
+        </a>
+        <a href="https://twitter.com/akalmans" target="_blank">
+          <img src="res/icon_twitter.png">
+        </a>
+        <a href="https://medium.com/@akalmans" target="_blank">
+          <img src="res/icon_medium.png">
+        </a>
+      </footer>
+    </div>
+  </div>
+</div>
+
+<div ng-controller="PortfolioCtrl as portfolio" class="portfolio container">
+  <div ng-show="portfolio.loading">
+    <h2 class="header">Loading Portfolio</h2>
+  </div>
+  <div ng-hide="portfolio.loading || portfolio.error">
+    <h2 id="portfolio" class="header">Companies We've Worked With</h2>
+    <div class="card portfolio-entry" ng-repeat="entry in portfolio.entries">
+      <header>
+        <h1 class="row">
+          <a ng-href="{{entry.website}}" target="_blank">
+            {{entry.name}}
+            <i class="material-icons">link</i>
+          </a>
+          <div class="icons">
+            <a ng-href="https://facebook.com/{{entry.facebook}}" title="{{entry.facebook}}" target="_blank" ng-if="entry.facebook">
+              <img src="res/icon_facebook.png">
+            </a>
+            <a ng-href="https://linkedin.com/company/{{entry.linkedin}}" target="_blank" ng-if="entry.linkedin">
+              <img src="res/icon_linkedin.png">
+            </a>
+            <a ng-href="https://twitter.com/{{entry.twitter}}" title="{{entry.twitter}}" target="_blank" ng-if="entry.twitter">
+              <img src="res/icon_twitter.png">
+            </a>
+          </div>
+        </h1>
+        <h2 class="row">
+          {{entry.description}}
+        </h2>
+      </header>
+    </div>
+  </div>
+  <div ng-show="portfolio.error">
+    <h2 class="header">Error Loading Portfolio</h2>
+    <i class="material-icons">retry</i>
+  </div>
+</div>
