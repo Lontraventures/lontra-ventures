@@ -1,6 +1,7 @@
-[,
+[
   {
     "name": "Appbase",
+    "description": "Appbase.io is a hosted developer API for consuming JSON data streams with ElasticSearch.",
     "website": "https://appbase.io",
     "twitter": "@appbaseio",
     "facebook": "appbaseinc",
@@ -8,6 +9,7 @@
   },
   {
     "name": "Atlas Wearables",
+    "description": "The first digital fitness and audio coach.",
     "website": "https://www.atlaswearables.com/",
     "twitter": "@AtlasWearables",
     "facebook": "atlaswearables",
@@ -15,6 +17,7 @@
   },
   {
     "name": "Bitfusion",
+    "description": "Faster, more efficient infrastructure for AI, Deep Learning, and beyond.",
     "website": "http://www.bitfusion.io/",
     "twitter": "@bitfusionio",
     "facebook": "bitfusionio",
@@ -22,13 +25,15 @@
   },
   {
     "name": "BlazingDB",
+    "description": "A high performance data warehouse. High performance SQL on petabyte scale needs.",
     "website": "https://blazingdb.com",
     "twitter": "@blazingdb",
     "facebook": "blazingdb",
-    "linkedin": "10078142",
+    "linkedin": "10078142"
   },
   {
     "name": "Clarify",
+    "description": "Applying ai to audio analytics.",
     "website": "http://clarify.io/",
     "twitter": "@clarifyio",
     "facebook": "clarifyinc",
@@ -36,27 +41,31 @@
   },
   {
     "name": "Experiment Engine",
+    "description": "Experiment Engine is the most comprehensive, easy-to-use conversion optimization platform.",
     "website": "https://www.experimentengine.com/",
     "twitter": "@expengine",
     "facebook": "ExperimentEngine",
     "linkedin": "4818335"
   },
   {
-    "name": "MusicMeetsVideo",
+    "name": "Music Meets Video",
+    "description": "Music Meets Video is a platform for artist exposure and discovery.",
     "website": "http://www.musicmeetsvideo.com/",
     "twitter": "@musicmeetsvideo",
     "facebook": "MusicMeetsVideo",
     "linkedin": "2642078"
   },
   {
-    "name": "Nexd",
-    "website": "http://www.nexd.io",
-    "twitter": "@nexd_io",
+    "name": "NEXD",
+    "description": "NEXD brings AI to sales professionals.",
+    "website": "http://www.nexd.ai",
+    "twitter": "@nexd_ai",
     "facebook": "nexdcorporation",
     "linkedin": "10249342"
   },
   {
     "name": "OneModel",
+    "description": "One Model Inc is an enterprise data platform purpose built for Human Resources data.",
     "website": "http://www.onemodel.co/",
     "twitter": "@OneModelHR",
     "facebook": "",
@@ -64,6 +73,7 @@
   },
   {
     "name": "RackN",
+    "description": "Open Hybrid Infrastructure Automation",
     "website": "https://rackn.com/",
     "twitter": "@rackngo",
     "facebook": "rackngo",
@@ -71,6 +81,7 @@
   },
   {
     "name": "Remark",
+    "description": "Securely play, review and approve videos with any device, anywhere.",
     "website": "https://remarkhq.com",
     "twitter": "@RemarkHQ",
     "facebook": "",
@@ -78,6 +89,7 @@
   },
   {
     "name": "Stoplight",
+    "description": "Stoplight takes the hassle out of your API Strategy, from start to finish.",
     "website": "https://stoplight.io",
     "twitter": "@stoplightio",
     "facebook": "StopLightio",
@@ -85,6 +97,7 @@
   },
   {
     "name": "Unchained Capital",
+    "description": "Making digital assets more useful.",
     "website": "http://www.unchained-capital.com",
     "twitter": "@unchainedcap",
     "facebook": "",
