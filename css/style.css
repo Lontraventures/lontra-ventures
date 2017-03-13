@@ -100,7 +100,7 @@ footer .copy {
 
 .split-container.short {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
-  height: 300px;
+  height: 200px;
 }
 
 .split-side {
@@ -214,6 +214,10 @@ footer .copy {
   .split-side:first-child {
     border-bottom: 4px solid white;
     border-right: none;
+  }
+
+  .short .split-side {
+    border-bottom: none;
   }
 
   .split-side .split-content {
