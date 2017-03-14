@@ -127,7 +127,6 @@ footer .copy {
   justify-content: center;
   text-align: center;
   width: 100%;
-  z-index: -1;
 }
 
 .split-side .split-content.cover {
@@ -283,6 +282,7 @@ h2.header {
   font-family: 'Roboto', sans-serif;
   font-size: 40px;
   font-weight: normal;
+  margin: 20px;
 }
 
 .container {
