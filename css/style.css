@@ -91,6 +91,7 @@ footer .copy {
 
 .split-container {
   align-items: stretch;
+  background-color: #000;
   display: flex;
   flex-direction: row;
   height: 100vh;
@@ -105,6 +106,9 @@ footer .copy {
 
 .split-side {
   align-items: center;
+  background-position: center center;
+  background-size: cover;
+  background-blend-mode: screen;
   display: flex;
   flex: 1;
   flex-direction: column;
@@ -120,13 +124,13 @@ footer .copy {
 
 .split-side .split-content {
   align-items: center;
-  background: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.4);
   display: flex;
   flex-direction: column;
   height: 170px;
   justify-content: center;
   text-align: center;
-  width: 100%;
+  align-self: stretch;
 }
 
 .split-side .split-content.cover {
@@ -147,13 +151,6 @@ footer .copy {
   padding-bottom: 10px;
 }
 
-.split-content img {
-  height: auto;
-  max-width: 90%;
-  object-fit: contain;
-}
-
-
 .split-side h2 {
   color: #fff;
   font-family: 'Roboto', sans-serif;
@@ -172,17 +169,6 @@ footer .copy {
 
 .split-side:first-child {
   border-right: 4px solid white;
-}
-
-.split-side > img {
-  height: 100%;
-  left: 0;
-  object-fit: cover;
-  object-position: center center;
-  position: absolute;
-  top: 0;
-  width: 100%;
-  z-index: -3;
 }
 
 .split-side .peek-button {
@@ -386,7 +372,7 @@ h2.header {
     text-align: center;
   }
 
-  .portfolio-entry header .row, .profile-content {
+  .profile-content {
     flex-direction: column;
   } 
 }
@@ -405,10 +391,19 @@ h2.header {
   font-weight: normal;
 }
 
+.portfolio-entry header .row {
+  flex-direction: column;
+  text-align: center;
+}
+
 .portfolio-entry header {
   align-items: start;
   display: flex;
   flex-direction: column;
   flex-grow: 1;
   font-family: 'Roboto', sans-serif;
+}
+
+.portfolio-logo {
+  height: 40px;
 }
