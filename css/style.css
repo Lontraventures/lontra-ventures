@@ -106,9 +106,7 @@ footer .copy {
 
 .split-side {
   align-items: center;
-  background-position: center center;
-  background-size: cover;
-  background-blend-mode: screen;
+  background-color: black;
   display: flex;
   flex: 1;
   flex-direction: column;
@@ -118,19 +116,35 @@ footer .copy {
   transition: all 0.5s;
 }
 
+
 .split-side:hover {
   flex-grow: 1.4;
 }
 
 .split-side .split-content {
   align-items: center;
-  background-color: rgba(0, 0, 0, 0.4);
   display: flex;
   flex-direction: column;
   height: 170px;
   justify-content: center;
   text-align: center;
   align-self: stretch;
+  z-index: 1;
+}
+
+.split-content .logo {
+  max-width: 80%;
+}
+
+.split-side > img {
+  height: 100%;
+  left: 0;
+  object-fit: cover;
+  opacity: 0.6;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 0;
 }
 
 .split-side .split-content.cover {
