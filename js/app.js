@@ -1,5 +1,5 @@
 (function(){
-  var app = angular.module('app', ['ngRoute']);
+  var app = angular.module('app', ['ngRoute', 'slick']);
 
   app.config(function($routeProvider) {
     $routeProvider
@@ -20,23 +20,6 @@
   app.controller('AppCtrl', function($scope, $location) {
     $scope.isActive = function(route) {
       return route === $location.path();
-    };
-  });
-
-  app.directive("carousel", function() {
-    return {
-      restrict: 'E',
-      scope: {
-        title: "@",
-        lines: "="
-      },
-      controller($scope, $sce) {
-        this.lines = $scope.lines
-          .map(l => $sce.trustAsHtml(l));
-        this.title = $scope.title;
-      },
-      controllerAs: "carousel",
-      templateUrl: "views/carousel.tmpl.html"
     };
   });
 
