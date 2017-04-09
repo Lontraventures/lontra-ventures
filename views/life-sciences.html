@@ -16,6 +16,16 @@
       <header>Walter Kalmans <span class="subhead">Leader, Life Science Practice</span></header>
       <content>
         <section class="block">
+          <p class="contact-info">
+            <a href="tel:1-512-515-9550">
+              <i class="material-icons">phone</i>
+              <span>(512) 515-9550</span>
+            </a>
+            <a href="mailto:wkalmans@lontraventures.com">
+              <i class="material-icons">email</i>
+              <span>wkalmans@lontraventures.com</span>
+            </a>
+          </p>
           <p>
             Walter leads the Life Sciences Division of Lontra Ventures, specializing in business development, product strategy, marketing, national accounts, and channel management for life science companies. In addition Walter has several clients who provide value-added services to life science companies.
           </p>
@@ -39,47 +49,5 @@
         </a>
       </footer>
     </div>
-  </div>
-</div>
-
-<div ng-controller="PortfolioCtrl as portfolio" class="portfolio container">
-  <div ng-show="portfolio.loading">
-    <h2 class="header">Loading Portfolio</h2>
-  </div>
-  <div ng-hide="portfolio.loading || portfolio.error">
-    <h2 id="portfolio" class="header">Companies We've Worked With</h2>
-    <div class="card portfolio-entry" ng-repeat="entry in portfolio.entries">
-      <header>
-        <h1 class="row">
-          <a ng-href="{{entry.website}}" target="_blank">
-            <img class="portfolio-logo" src="res/logos/{{entry.logo}}" />
-          </a>
-        </h1>
-        <h1 class="row">
-          <a ng-href="{{entry.website}}" target="_blank">
-            {{entry.name}}
-            <i class="material-icons">link</i>
-          </a>
-          <div class="icons">
-            <a ng-href="https://facebook.com/{{entry.facebook}}" title="{{entry.facebook}}" target="_blank" ng-if="entry.facebook">
-              <img src="res/icons/icon_facebook.png">
-            </a>
-            <a ng-href="https://linkedin.com/company/{{entry.linkedin}}" target="_blank" ng-if="entry.linkedin">
-              <img src="res/icons/icon_linkedin.png">
-            </a>
-            <a ng-href="https://twitter.com/{{entry.twitter}}" title="{{entry.twitter}}" target="_blank" ng-if="entry.twitter">
-              <img src="res/icons/icon_twitter.png">
-            </a>
-          </div>
-        </h1>
-        <h2 class="row">
-          {{entry.description}}
-        </h2>
-      </header>
-    </div>
-  </div>
-  <div ng-show="portfolio.error">
-    <h2 class="header">Error Loading Portfolio</h2>
-    <i class="material-icons">retry</i>
   </div>
 </div>

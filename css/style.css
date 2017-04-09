@@ -372,6 +372,25 @@ h2.header {
   padding: 10px;
 }
 
+.contact-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-info a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.contact-info a i {
+  padding-right: 10px;
+}
+
+.contact-info a:hover span {
+  text-decoration: underline;
+}
+
 .profile-info {
   align-items: stretch;
   display: flex;
