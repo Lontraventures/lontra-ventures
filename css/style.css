@@ -424,9 +424,6 @@ h2.header {
 
 .portfolio .header {
   color: #fff;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   margin-top: 10px;
 }
 
@@ -457,6 +454,7 @@ h2.header {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
+  margin: auto;
 }
 
 @media screen and (max-width: 800px) {
