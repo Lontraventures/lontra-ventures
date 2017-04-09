@@ -420,6 +420,9 @@ h2.header {
 
 .portfolio {
   background-color: #333;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .portfolio .header {
