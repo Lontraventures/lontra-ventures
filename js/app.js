@@ -23,6 +23,23 @@
     };
   });
 
+  app.directive("carousel", function() {
+    return {
+      restrict: 'E',
+      scope: {
+        title: "@",
+        lines: "="
+      },
+      controller($scope, $sce) {
+        this.lines = $scope.lines
+          .map(l => $sce.trustAsHtml(l));
+        this.title = $scope.title;
+      },
+      controllerAs: "carousel",
+      templateUrl: "views/carousel.tmpl.html"
+    };
+  });
+
   app.controller('PortfolioCtrl', function($scope, $http) {
     var portfolio = this;
 

@@ -1,1 +1,85 @@
-Nothing here .. yet
+<!DOCTYPE html>
+<div class="split-container short">
+  <div class="split-side">
+    <div class="split-content cover">
+      Life Sciences
+    </div>
+    <img src="res/split-life-bg.jpg"/>
+  </div>
+</div>
+<div class="profile container">
+  <div class="profile-content">
+    <div class="profile-picture">
+      <img src="res/profile-picture.png">
+    </div>
+    <div class="profile-info">
+      <header>Walter Kalmans <span class="subhead">Leader, Life Science Practice</span></header>
+      <content>
+        <section class="block">
+          <p>
+            Walter leads the Life Sciences Division of Lontra Ventures, specializing in business development, product strategy, marketing, national accounts, and channel management for life science companies. In addition Walter has several clients who provide value-added services to life science companies.
+          </p>
+          <p>
+            Walter speaks at industry conferences, has been quoted or mentioned in numerous publications, and has testified before Congress on health policy issues. He is a guest blogger for The University of Texas McCombs School of Business and The Wharton School at The University of Pennsylvania.
+          </p>
+          <p>
+            Prior to founding Lontra Ventures in 2008, Walter Kalmans was Vice President, Business Development for Oncology Therapeutics Network (OTN), a subsidiary of McKesson Corporation. During his tenure at OTN, Walter was responsible for OTN’s relationships with manufacturers and for delivering value-added services that helped manufacturers sell more product. Prior to joining OTN, Walter held senior commercial positions with Vignette, a software company, and Becton Dickinson &amp; Company. Earlier in his career, he was a healthcare management consultant for several top firms, including Quintiles, Booz-Allen &amp; Hamilton and Accenture.
+          </p>
+          <p>
+            Walter earned a Bachelor of Science in Finance from the Wharton School and a Bachelor of Arts in Molecular Biology from the College of Arts &amp; Sciences, both at the University of Pennsylvania. He holds a Masters in Business Administration from the Fuqua School of Business at Duke University where he graduated as a JB Fuqua Scholar.
+          </p>
+        </section>
+      </content>
+      <footer class="social">
+        <a href="https://www.linkedin.com/in/wkalmans" target="_blank">
+          <img src="res/icons/icon_linkedin.png">
+        </a>
+        <a href="https://twitter.com/wkalmans" target="_blank">
+          <img src="res/icons/icon_twitter.png">
+        </a>
+      </footer>
+    </div>
+  </div>
+</div>
+
+<div ng-controller="PortfolioCtrl as portfolio" class="portfolio container">
+  <div ng-show="portfolio.loading">
+    <h2 class="header">Loading Portfolio</h2>
+  </div>
+  <div ng-hide="portfolio.loading || portfolio.error">
+    <h2 id="portfolio" class="header">Companies We've Worked With</h2>
+    <div class="card portfolio-entry" ng-repeat="entry in portfolio.entries">
+      <header>
+        <h1 class="row">
+          <a ng-href="{{entry.website}}" target="_blank">
+            <img class="portfolio-logo" src="res/logos/{{entry.logo}}" />
+          </a>
+        </h1>
+        <h1 class="row">
+          <a ng-href="{{entry.website}}" target="_blank">
+            {{entry.name}}
+            <i class="material-icons">link</i>
+          </a>
+          <div class="icons">
+            <a ng-href="https://facebook.com/{{entry.facebook}}" title="{{entry.facebook}}" target="_blank" ng-if="entry.facebook">
+              <img src="res/icons/icon_facebook.png">
+            </a>
+            <a ng-href="https://linkedin.com/company/{{entry.linkedin}}" target="_blank" ng-if="entry.linkedin">
+              <img src="res/icons/icon_linkedin.png">
+            </a>
+            <a ng-href="https://twitter.com/{{entry.twitter}}" title="{{entry.twitter}}" target="_blank" ng-if="entry.twitter">
+              <img src="res/icons/icon_twitter.png">
+            </a>
+          </div>
+        </h1>
+        <h2 class="row">
+          {{entry.description}}
+        </h2>
+      </header>
+    </div>
+  </div>
+  <div ng-show="portfolio.error">
+    <h2 class="header">Error Loading Portfolio</h2>
+    <i class="material-icons">retry</i>
+  </div>
+</div>
