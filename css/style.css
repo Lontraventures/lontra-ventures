@@ -21,47 +21,79 @@ nav {
   background: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
   display: flex;
-  flex-direction: row;
-  height: 50px;
+  flex-direction: column;
+  height: auto;
   position: fixed;
   top: 0;
+  left: 100vw;
   transition: all 0.5s;
-  width: 100%;
+  min-width: 200px;
   z-index: 1;
 }
 
-nav.docked {
-  box-shadow: none;
-  background: transparent;
+nav:hover {
+  transform: translateX(-100%);
 }
 
-nav .logo {
-  margin: 5px;
-  max-height: 40px;
-  width: auto;
+nav::before {
+  align-items: center;
+  background-color: #fff;
+  border-bottom-left-radius: 50%;
+  border-top-left-radius: 50%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  clip-path: inset(-5px 0 -5px -5px);
+  color: #000;
+  content: 'menu';
+  display: flex;
+  flex-direction: column;
+  font-family: "Material Icons";
+  height: 50px;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateX(-100%);
+  width: 50px;
+  z-index: 1;
 }
 
-nav .logo .mobile {
-  display: none;
+nav a {
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto', sans-serif;
+  height: 50px;
+  justify-content: center;
+  text-decoration: none;
+  padding: 0 20px 0 20px;
+  position: relative;
+  width: 100%;
+}
+
+nav a:hover::after {
+  width: 100%;
+}
+
+nav a::after {
+  background-color: #ddd;
+  content: '';
+  height: 100%;
+  right: 0;
+  opacity: 0.5;
+  position: absolute;
+  top: 0;
+  transition: all 0.5s ease;
+  width: 0;
+  z-index: -1;
 }
 
 @media screen and (max-width: 800px) {
-  nav {
-    height: 60px;
-    position: fixed;
+  nav a {
+    width: 100%;
+    padding: 0;
+    text-align: center;
   }
 
-  nav .logo img {
-    max-height: 40px;
-  }
-
-  nav .logo .desktop {
-    display: none;
-  }
-
-  nav .logo .mobile {
-    display: block;
-  }
 }
 
 
@@ -183,8 +215,10 @@ footer .copy {
   width: 40vw;
 }
 
-.split-side:first-child:not(:last-child) {
-  border-right: 4px solid white;
+@media screen and (min-width: 800px) {
+  .split-side:first-child:not(:last-child) {
+    border-right: 4px solid white;
+  }
 }
 
 .split-side .peek-button {
@@ -253,7 +287,7 @@ section.block p {
   margin-top: 16px;
 }
 
-section.carousel h2 {
+.carousel-container h2, .carousel .carousel-line {
   text-align: center;
 }
 

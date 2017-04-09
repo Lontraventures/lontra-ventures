@@ -29,7 +29,7 @@
   </head>
   <body ng-app="app" ng-controller="AppCtrl">
     <div class="content">
-      <ng-view></ng-view>
+      <ng-view autoscroll="true"></ng-view>
     </div>
     <footer>
       <div class="social">
@@ -48,6 +48,11 @@
         Copyright &copy; 2017 Lontra Ventures, LLC. All Rights Reserved
       </div>
     </footer>
+    <nav onclick="">
+      <a ng-href="#!/">Home</a>
+      <a ng-href="#!/technology">Technology</a>
+      <a ng-href="#!/life-sciences">Life Sciences</a>
+    </nav>
 
     <script src="js/angular.js"></script>
     <script src="js/angular-route.min.js"></script>
