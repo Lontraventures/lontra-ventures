@@ -29,17 +29,17 @@
   </slick>
 </section>
 <div class="split-container">
-  <div class="split-side" onclick="">
+  <div class="split-side" onclick="" ng-href="#!/technology">
     <div class="split-content">
       <h2>Technology</h2>
       <section class="description">
         Seed stage advisory and investment portfolio focused on emerging trends.
       </section>
-      <a class="peek-button" href="#!/technology">arrow_forward</a>
+      <a class="peek-button" ng-href="#!/technology">arrow_forward</a>
     </div>
     <img src="res/split-tech-bg.jpg"/>
   </div>
-  <div class="split-side" onclick="">
+  <div class="split-side" onclick="" ng-href="#!/life-sciences">
     <div class="split-content">
       <h2>Life Sciences</h2>
       <section class="description">
@@ -50,3 +50,19 @@
     <img src="res/split-life-bg.jpg"/>
   </div>
 </div>
+<section class="block carousel">
+  <h2>What Our Partners Say</h2>
+  <slick speed="1000" autoplay="true" autoplaySpeed="4000" dots="true">
+    <div class="profile-container" ng-repeat="quote in quotes">
+      <div class="profile-content">
+        <div class="profile-picture">
+          <img src="res/{{quote.pic}}">
+        </div>
+        <div class="profile-info">
+          <div class="quote">{{quote.quote}}</div>
+          <div class="author">{{quote.author}}</div>
+        </div>
+      </div>
+    </div>
+  </slick>
+</section>

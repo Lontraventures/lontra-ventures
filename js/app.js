@@ -26,6 +26,16 @@
     $scope.isActive = function(route) {
       return route === $location.path();
     };
+
+    $scope.quotes = [{
+      pic: 'profile-picture.png',
+      quote: 'Lontra is outstanding',
+      author: 'Anonymous'
+    }, {
+      pic: 'profile-picture.png',
+      quote: 'Money! Profit! Startups!',
+      author: 'Matt Damon'
+    }, ];
   });
 
   app.controller('PortfolioCtrl', function($scope, $http) {
