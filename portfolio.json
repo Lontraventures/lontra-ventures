@@ -1,7 +1,8 @@
 [
   {
     "name": "Appbase",
-    "description": "Appbase.io is a hosted developer API for consuming JSON data streams with ElasticSearch.",
+    "type": "single",
+    "description": "Hosted developer API for consuming JSON data streams with ElasticSearch.",
     "logo": "Appbase_Logo_2016_DarkBlue.png",
     "website": "https://appbase.io",
     "twitter": "@appbaseio",
@@ -10,6 +11,7 @@
   },
   {
     "name": "Atlas Wearables",
+    "type": "single",
     "description": "The first digital fitness and audio coach.",
     "logo": "atlas_logo_black.png",
     "website": "https://www.atlaswearables.com/",
@@ -19,6 +21,7 @@
   },
   {
     "name": "Bitfusion",
+    "type": "single",
     "description": "Faster, more efficient infrastructure for AI, Deep Learning, and beyond.",
     "logo": "bitfusion_logo.png",
     "website": "http://www.bitfusion.io/",
@@ -28,6 +31,7 @@
   },
   {
     "name": "BlazingDB",
+    "type": "single",
     "description": "A high performance data warehouse. High performance SQL on petabyte scale needs.",
     "logo": "blazingdb_logo_b.png",
     "website": "https://blazingdb.com",
@@ -37,6 +41,7 @@
   },
   {
     "name": "Clarify",
+    "type": "single",
     "description": "Applying ai to audio analytics.",
     "logo": "clarify-logo.png",
     "website": "http://clarify.io/",
@@ -46,7 +51,8 @@
   },
   {
     "name": "Experiment Engine",
-    "description": "Experiment Engine is the most comprehensive, easy-to-use conversion optimization platform.",
+    "type": "single",
+    "description": "Experiment Engine is the most comprehensive, easy-to-use conversion optimization platform. Acquired by acquired by Optimizely!",
     "logo": "experimentengine_logo.png",
     "website": "https://www.experimentengine.com/",
     "twitter": "@expengine",
@@ -55,6 +61,7 @@
   },
   {
     "name": "Music Meets Video",
+    "type": "single",
     "description": "Music Meets Video is a platform for artist exposure and discovery.",
     "logo": "musicmeetsvideo_logo.png",
     "website": "http://www.musicmeetsvideo.com/",
@@ -64,6 +71,7 @@
   },
   {
     "name": "NEXD",
+    "type": "single",
     "description": "NEXD brings AI to sales professionals.",
     "logo": "nexd_logo.png",
     "website": "http://www.nexd.ai",
@@ -73,6 +81,7 @@
   },
   {
     "name": "OneModel",
+    "type": "single",
     "description": "One Model Inc is an enterprise data platform purpose built for Human Resources data.",
     "logo": "onemodel_logo.png",
     "website": "http://www.onemodel.co/",
@@ -82,6 +91,7 @@
   },
   {
     "name": "RackN",
+    "type": "single",
     "description": "Open Hybrid Infrastructure Automation",
     "logo": "rackn-logo.png",
     "website": "https://rackn.com/",
@@ -90,7 +100,22 @@
     "linkedin": "4809859"
   },
   {
+    "type": "multi",
+    "name": "RealCo Acceleratator and Geekdom Fund",
+    "description": "Startup fund and accelerator that specializes in internet-tech related B2B startups.",
+    "nodes": [{
+      "name": "RealCo Accelerator",
+      "website": "https://angel.co/realco-accelerator",
+      "logo": "realco_logo.jpg"
+    }, {
+      "name": "Geekdom Fund",
+      "website": "http://www.geekdomfund.com/",
+      "logo": "geekdomfund_logo.png"
+    }]
+  },
+  {
     "name": "Remark",
+    "type": "single",
     "description": "Securely play, review and approve videos with any device, anywhere.",
     "logo": "remark_logo.png",
     "website": "https://remarkhq.com",
@@ -100,6 +125,7 @@
   },
   {
     "name": "Stoplight",
+    "type": "single",
     "description": "Stoplight takes the hassle out of your API Strategy, from start to finish.",
     "logo": "stoplight_logo.png",
     "website": "https://stoplight.io",
@@ -109,6 +135,7 @@
   },
   {
     "name": "Unchained Capital",
+    "type": "single",
     "logo": "unchained_logo.png",
     "description": "Making digital assets more useful.",
     "website": "http://www.unchained-capital.com",
