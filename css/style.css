@@ -23,6 +23,11 @@ body {
     top: 0;
     width: 100%;
     z-index: 2;
+    transition: all 0.2s ease;
+  }
+
+  nav.top {
+    background-color: rgba(255, 255, 255, 0.2);
   }
 
   nav .items {
@@ -53,6 +58,10 @@ body {
     padding-left: 15px;
     padding-right: 15px;
     text-decoration: none;
+  }
+
+  .top .items a {
+    color: #fff;
   }
 
   nav .items a:hover {
@@ -336,7 +345,7 @@ section.block h2 {
   font-weight: 200;
 }
 
-section.block p {
+section.block p, .description p, ul {
   font-size: 20px;
   line-height: 30px;
   margin-bottom: 16px;
@@ -412,6 +421,18 @@ h2.header {
   font-family: 'Roboto', sans-serif;
   justify-content: flex-start;
   padding: 20px;
+}
+
+.description {
+  margin: auto;
+  max-width: 800px;
+}
+
+@media screen and (max-width: 800px) {
+  .description {
+    margin: 4px;
+    max-width: 100%;
+  }
 }
 
 .profile-picture {
@@ -615,4 +636,19 @@ h2.header {
   height: 40px;
   width: auto;
   object-fit: contain;
+}
+
+.service header {
+  font-size: 25px;  
+  font-weight: bold;
+  text-align: center;
+}
+
+.service {
+  box-shadow: 0 2px 4px #666;
+  padding: 12px;
+}
+
+ul {
+  margin-left: 25px;
 }
