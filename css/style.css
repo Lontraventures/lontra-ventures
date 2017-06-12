@@ -407,6 +407,12 @@ section.block p, .description p, ul {
   transition: all 0.5s ease;
 }
 
+.slick-dots {
+  position: relative !important;
+  margin: 10px auto !important;
+  width: auto !important;
+}
+
 .slick-dots li.slick-active button {
   background-color: #999;
 }
@@ -699,6 +705,15 @@ ul {
 .author {
   color: #888;
   font-size: 25px;
+  position: relative;
+  text-align: right;
+}
+
+.position {
+  color: #888;
+  font-size: 17px;
+  font-style: italic;
+  padding-right: 4px;
   position: relative;
   text-align: right;
 }
