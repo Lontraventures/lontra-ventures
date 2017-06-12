@@ -1,7 +1,12 @@
 (function(){
   window.onscroll = function() {
     var scroll = document.body.scrollTop;
-    $('#navbar')[0].className = scroll < 5 ? 'top' : '';
+    var hasClass = $('#navbar').hasClass('top');
+    if(scroll < 5 && !hasClass) {
+      $('#navbar').addClass('top');
+    } else if (scroll >= 5 && hasClass) {
+      $('#navbar').removeClass('top');
+    } 
   }
 
   var app = angular.module('app', ['ngRoute', 'slick']);

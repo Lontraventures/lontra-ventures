@@ -15,6 +15,10 @@ body {
   flex-grow: 1;
 }
 
+#blocker {
+  display: none;
+}
+
 @media screen and (min-width: 800px) {
   nav {
     background-color: rgba(255, 255, 255, 0.8);
@@ -81,7 +85,23 @@ body {
     position: fixed;
     top: 0;
     transition: all 0.5s;
+    z-index: 2;
+  }
+
+  #blocker {
+    background-color: #000;
+    opacity: 0.4;
+    height: 100vh;
+    left: 0;
+    transform: translateX(100vw - 200px);
+    position: fixed;
+    top: 0;
+    width: 100vw;
     z-index: 1;
+  }
+
+  #blocker.open {
+    display: block;
   }
 
   nav .logo {
@@ -97,7 +117,7 @@ body {
     z-index: 1;
   }
 
-  nav:hover {
+  nav.open {
     transform: translateX(-100%);
   }
 
@@ -333,6 +353,10 @@ footer .copy {
   }
 }
 
+.description-bg {
+  background-color: #eee;
+}
+
 section.block {
   background: #fff;
   font-family: 'Roboto', sans-serif;
@@ -350,6 +374,15 @@ section.block p, .description p, ul {
   line-height: 30px;
   margin-bottom: 16px;
   margin-top: 16px;
+}
+
+@media screen and (max-width: 800px) {
+  section.block p, .description p, ul {
+    font-size: 15px;
+    line-height: 22px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
 }
 
 .carousel {
@@ -645,8 +678,10 @@ h2.header {
 }
 
 .service {
+  background-color: #fff;
   box-shadow: 0 2px 4px #666;
   padding: 12px;
+  margin: 10px;
 }
 
 ul {
