@@ -37,9 +37,10 @@
       quote: 'Lontra is outstanding',
       author: 'Anonymous'
     }, {
-      pic: 'profile-picture.png',
-      quote: 'Money! Profit! Startups!',
-      author: 'Matt Damon'
+      pic: '',
+      quote: 'quote text',
+      author: 'Author Lastname',
+      position: 'Position at Company',
     }, ];
   });
 
