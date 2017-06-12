@@ -2,7 +2,7 @@
   {
     "name": "Appbase",
     "type": "single",
-    "description": "Hosted developer API for consuming JSON data streams with ElasticSearch.",
+    "description": "Accelerating realtime data streams.",
     "logo": "Appbase_Logo_2016_DarkBlue.png",
     "website": "https://appbase.io",
     "twitter": "@appbaseio",
@@ -12,7 +12,7 @@
   {
     "name": "Atlas Wearables",
     "type": "single",
-    "description": "The first digital fitness and audio coach.",
+    "description": "Offering the first digital fitness and audio coach.",
     "logo": "atlas_logo_black.png",
     "website": "https://www.atlaswearables.com/",
     "twitter": "@AtlasWearables",
@@ -32,7 +32,7 @@
   {
     "name": "BlazingDB",
     "type": "single",
-    "description": "A high performance data warehouse. High performance SQL on petabyte scale needs.",
+    "description": "High performance data warehouse. High performance SQL on petabyte scale needs.",
     "logo": "blazingdb_logo_b.png",
     "website": "https://blazingdb.com",
     "twitter": "@blazingdb",
@@ -42,7 +42,7 @@
   {
     "name": "Clarify",
     "type": "single",
-    "description": "Applying ai to audio analytics.",
+    "description": "Applying AI to audio analytics.",
     "logo": "clarify-logo.png",
     "website": "http://clarify.io/",
     "twitter": "@clarifyio",
@@ -51,18 +51,35 @@
   },
   {
     "name": "Experiment Engine",
-    "type": "single",
-    "description": "Experiment Engine is the most comprehensive, easy-to-use conversion optimization platform. Acquired by acquired by Optimizely!",
-    "logo": "experimentengine_logo.png",
-    "website": "https://www.experimentengine.com/",
+    "type": "multi",
+    "description": "Powering the world’s most trusted experimentation platform.",
     "twitter": "@expengine",
     "facebook": "ExperimentEngine",
-    "linkedin": "4818335"
+    "linkedin": "4818335",
+    "nodes": [{
+      "name": "Experiment Engine",
+      "website": "https://www.experimentengine.com/",
+      "logo": "experimentengine_logo.png"
+    }, {
+      "name": "Optimizely",
+      "website": "https://www.optimizely.com/",
+      "logo": "optimizely-logo.png"
+    }]
+  },
+  {
+    "name": "IronCore Labs",
+    "type": "single",
+    "description": "Promoting a customer controlled data solution.",
+    "logo": "ironcorelabs-logo.png",
+    "website": "https://ironcorelabs.com/",
+    "twitter": "@ironcorelabs",
+    "facebook": "ironcorelabs",
+    "linkedin": "9338731"
   },
   {
     "name": "Music Meets Video",
     "type": "single",
-    "description": "Music Meets Video is a platform for artist exposure and discovery.",
+    "description": "Joining artists and community with exposure and discovery.",
     "logo": "musicmeetsvideo_logo.png",
     "website": "http://www.musicmeetsvideo.com/",
     "twitter": "@musicmeetsvideo",
@@ -72,7 +89,7 @@
   {
     "name": "NEXD",
     "type": "single",
-    "description": "NEXD brings AI to sales professionals.",
+    "description": "Bringing AI to sales professionals.",
     "logo": "nexd_logo.png",
     "website": "http://www.nexd.ai",
     "twitter": "@nexd_ai",
@@ -82,7 +99,7 @@
   {
     "name": "OneModel",
     "type": "single",
-    "description": "One Model Inc is an enterprise data platform purpose built for Human Resources data.",
+    "description": "Delivering an  enterprise data platform purpose built for Human Resources data.",
     "logo": "onemodel_logo.png",
     "website": "http://www.onemodel.co/",
     "twitter": "@OneModelHR",
@@ -92,7 +109,7 @@
   {
     "name": "RackN",
     "type": "single",
-    "description": "Open Hybrid Infrastructure Automation",
+    "description": "Enabling multicloud mobility.",
     "logo": "rackn-logo.png",
     "website": "https://rackn.com/",
     "twitter": "@rackngo",
@@ -116,7 +133,7 @@
   {
     "name": "Remark",
     "type": "single",
-    "description": "Securely play, review and approve videos with any device, anywhere.",
+    "description": "Review and approval tool for videos with any device, anywhere.",
     "logo": "remark_logo.png",
     "website": "https://remarkhq.com",
     "twitter": "@RemarkHQ",
@@ -126,7 +143,7 @@
   {
     "name": "Stoplight",
     "type": "single",
-    "description": "Stoplight takes the hassle out of your API Strategy, from start to finish.",
+    "description": "Removing the hassle from API strategy via a modular API toolkit.",
     "logo": "stoplight_logo.png",
     "website": "https://stoplight.io",
     "twitter": "@stoplightio",

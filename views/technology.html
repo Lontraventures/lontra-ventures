@@ -60,7 +60,7 @@
     <h2 id="portfolio" class="header">Portfolio &amp; Partners</h2>
     <div class="card portfolio-entry" ng-repeat="entry in portfolio.entries">
       <header ng-if="entry.type === 'single'">
-        <h1 class="row">
+        <h1 class="row logo-container">
           <a ng-href="{{entry.website}}" target="_blank" alt="{{entry.name}}">
             <img class="portfolio-logo" title="{{entry.name}}" src="res/logos/{{entry.logo}}" />
           </a>
@@ -88,7 +88,7 @@
       </header>
 
       <header ng-if="entry.type === 'multi'">
-        <h1 class="multi">
+        <h1 class="multi logo-container">
           <a ng-repeat="node in entry.nodes" ng-href="{{node.website}}" target="_blank" alt="{{node.name}}">
             <img class="portfolio-logo" title="{{node.name}}" src="res/logos/{{node.logo}}" />
             <!-- <span>{{node.name}}<i class="material-icons">link</i></span> -->
@@ -97,6 +97,19 @@
         <!-- <h1 class="row">
           {{entry.name}}
         </h1> -->
+        <h1 class="row">
+          <div class="icons">
+            <a ng-href="https://facebook.com/{{entry.facebook}}" title="{{entry.facebook}}" target="_blank" ng-if="entry.facebook">
+              <img src="res/icons/icon_facebook.png">
+            </a>
+            <a ng-href="https://linkedin.com/company/{{entry.linkedin}}" target="_blank" ng-if="entry.linkedin">
+              <img src="res/icons/icon_linkedin.png">
+            </a>
+            <a ng-href="https://twitter.com/{{entry.twitter}}" title="{{entry.twitter}}" target="_blank" ng-if="entry.twitter">
+              <img src="res/icons/icon_twitter.png">
+            </a>
+          </div>
+        </h1>
         <h2 class="row">
           {{entry.description}}
         </h2>
@@ -105,6 +118,6 @@
   </div>
   <div ng-show="portfolio.error">
     <h2 class="header">Error Loading Portfolio</h2>
-    <i class="material-icons">retry</i>
+    <i class="material-icons" onclick="location.reload();">retry</i> <!-- I feel so evil -->
   </div>
 </div>
