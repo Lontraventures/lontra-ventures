@@ -555,9 +555,8 @@ h2.header {
   text-decoration: none;
 }
 
-.portfolio a > img {
-  max-height: 50px;
-  max-width: 70vw;
+.portfolio .icons a > img {
+  height: 50px;
 }
 
 .portfolio-entry, .profile-content {
@@ -672,7 +671,8 @@ h2.header {
 }
 
 .portfolio-logo {
-  height: 40px;
+  max-height: 50px;
+  max-width: 70vw;
   width: auto;
   object-fit: contain;
 }
