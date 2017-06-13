@@ -55,9 +55,6 @@
   <slick speed="1000" autoplay="true" autoplay-speed="4000" adaptive-height="true" dots="true">
     <div class="profile-container" ng-repeat="quote in quotes">
       <div class="profile-content">
-        <div class="profile-picture" ng-if="quote.pic">
-          <img src="res/{{quote.pic}}">
-        </div>
         <div class="profile-info" style="margin: auto;">
           <div class="quote">{{quote.quote}}</div>
           <div class="author">{{quote.author}}</div>

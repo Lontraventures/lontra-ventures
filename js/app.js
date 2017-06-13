@@ -33,27 +33,22 @@
     };
 
     $scope.quotes = [{
-      pic: 'faces/robhirschfeld.jpg',
       quote: 'Warm, positive and outgoing, Andrea still can seriously stir the pot and push past all obstacles.  You want her on your side!',
       author: 'Rob Hirschfeld',
       position: 'CEO/Founder, RackN'
     }, {
-      pic: 'faces/paulmurphy.jpg',
       quote: 'Most investors talk about "adding value"; Lontra does',
       author: 'Paul Murphy',
       position: 'CEO/Founder, Clarify'
     }, {
-      pic: 'faces/subburama.jpg',
       quote: 'Andrea is one of the best people I have known, who is always willing to help and knows everyone.',
       author: 'Subbu Rama',
       position: 'CEO/Co-Founder, Bitfusion'
     }, {
-      pic: 'faces/jamesdavison.jpg',
       quote: 'Andrea is hyper networked in Austin. If you need better connections, more intros, or want to expand your team, Andrea can help.  She rocks.',
       author: 'James Davison',
       position: 'Co-Founder, Nexd'
     }, {
-      pic: 'faces/amosschwartzfarb.jpg',
       quote: 'I\’ve known and worked with Andrea since 2013 and am continually impressed with her.  She’s a very hands on investor who is incredibly smart, very optimistic and balanced with the right amount of transparent pragmatism.',
       author: 'Amos Schwartzfarb',
       position: 'Managing Director, Techstars',
