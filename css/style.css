@@ -21,7 +21,8 @@ body {
 
 @media screen and (min-width: 800px) {
   nav {
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
     left: 0;
     position: fixed;
     top: 0;
@@ -32,6 +33,7 @@ body {
 
   nav.top {
     background-color: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   }
 
   nav .items {
@@ -48,13 +50,28 @@ body {
     text-align: left;
   }
 
+  nav .logo a {
+    background-image: url(../res/title-blue.png);
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100%;
+    margin-left: 4px;
+    width: 300px;
+  }
+
+  nav.top .logo a {
+    background-image: url(../res/title-white.png);
+  }
+
   nav .items .logo:hover {
     text-decoration: none;
   }
 
   nav .items a {
     align-items: center;
-    color: #000;
+    color: #00c;
+    font-weight: bold;
     display: flex;
     flex-direction: row;
     height: 50px;
@@ -69,7 +86,7 @@ body {
   }
 
   nav .items a:hover {
-    text-decoration: underline;
+    
   }
 
   nav .menu-button {
