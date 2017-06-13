@@ -37,7 +37,7 @@
       author: 'Rob Hirschfeld',
       position: 'CEO/Founder, RackN'
     }, {
-      quote: 'Most investors talk about "adding value"; Lontra does',
+      quote: 'Most investors talk about \'adding value, Lontra does',
       author: 'Paul Murphy',
       position: 'CEO/Founder, Clarify'
     }, {
