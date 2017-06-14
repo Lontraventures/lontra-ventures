@@ -52,6 +52,10 @@
       quote: 'I\’ve known and worked with Andrea since 2013 and am continually impressed with her.  She’s a very hands on investor who is incredibly smart, very optimistic and balanced with the right amount of transparent pragmatism.',
       author: 'Amos Schwartzfarb',
       position: 'Managing Director, Techstars',
+    }, {
+      quote: 'Lontra Ventures has been amazing to collaborate with over the last few years. Andrea and Walter are two of Geekdom Fund\'s most trusted advisers in Austin.',
+      author: 'Mike Troy',
+      position: 'Partner, Geekdom Fund',
     }];
   });
 
