@@ -1,6 +1,6 @@
 (function(){
   window.onscroll = function() {
-    var scroll = document.body.scrollTop;
+    var scroll = $(window).scrollTop() + $(document.body).scrollTop();
     var hasClass = $('#navbar').hasClass('top');
     if(scroll < 5 && !hasClass) {
       $('#navbar').addClass('top');
@@ -68,7 +68,7 @@
       portfolio.error = false;
       portfolio.portfolio = 
 
-      $http.get('portfolio.json')
+      $http.get('portfolio.json?v1')
         .then(function(resp) {
           portfolio.loading = false;
           portfolio.entries = resp.data;

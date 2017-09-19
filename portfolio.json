@@ -87,14 +87,24 @@
     "linkedin": "2642078"
   },
   {
-    "name": "NEXD",
+    "name": "Nebulab",
+    "type": "single",
+    "description": "A data management platform for scientists",
+    "logo": "nebulab_logo.png",
+    "website": "http://nebulab.io",
+    "twitter": "@nebulab_io",
+    "facebook": "",
+    "linkedin": "4043712"
+  },
+  {
+    "name": "Olono",
     "type": "single",
     "description": "Bringing AI to sales professionals.",
-    "logo": "nexd_logo.png",
-    "website": "http://www.nexd.ai",
-    "twitter": "@nexd_ai",
-    "facebook": "nexdcorporation",
-    "linkedin": "10249342"
+    "logo": "olono_logo.png",
+    "website": "http://www.olono.ai",
+    "facebook": "",
+    "twitter": "@OlonoAi",
+    "linkedin": "24798029"
   },
   {
     "name": "OneModel",
@@ -110,7 +120,7 @@
     "name": "RackN",
     "type": "single",
     "description": "Enabling multicloud mobility.",
-    "logo": "rackn-logo.png",
+    "logo": "rackn_logo.png",
     "website": "https://rackn.com/",
     "twitter": "@rackngo",
     "facebook": "rackngo",
