@@ -1,8 +1,18 @@
 [
   {
+    "name": "Airtory",
+    "type": "single",
+    "description": "Create beautiful, interactive, engaging Rich Media campaigns cost effectively in mere minutes.",
+    "logo": "airtory_logo.jpg",
+    "website": "https://airtory.com",
+    "twitter": "@airtoryHQ",
+    "facebook": "Airtory",
+    "linkedin": "airtory"
+  },
+  {
     "name": "Appbase",
     "type": "single",
-    "description": "Accelerating realtime data streams.",
+    "description": "Search stack for modern apps.",
     "logo": "Appbase_Logo_2016_DarkBlue.png",
     "website": "https://appbase.io",
     "twitter": "@appbaseio",
@@ -50,6 +60,26 @@
     "linkedin": "3805722"
   },
   {
+    "name": "CrowdOut",
+    "type": "single",
+    "description": "Thoughtful lower-to-middle market lender with a focus on $3 - $30+ million corporate loans.",
+    "logo": "crowdout_logo.png",
+    "website": "https://crowdout.com",
+    "twitter": "@crowdout",
+    "facebook": "",
+    "linkedin": "6672088"
+  },
+  {
+    "name": "Docstation",
+    "type": "single",
+    "description": "A patient care platform for pharmacists.",
+    "logo": "docstation_logo.png",
+    "website": "https://docstation.co",
+    "twitter": "@docstationapp",
+    "facebook": "docstationapp",
+    "linkedin": "docstation"
+  },
+  {
     "name": "Experiment Engine acquired by Optimizely",
     "type": "multi",
     "description": "Powering the world’s most trusted experimentation platform.",
@@ -77,14 +107,24 @@
     "linkedin": "9338731"
   },
   {
-    "name": "Music Meets Video",
+    "name": "Joshin",
     "type": "single",
-    "description": "Joining artists and community with exposure and discovery.",
-    "logo": "musicmeetsvideo_logo.png",
-    "website": "http://www.musicmeetsvideo.com/",
-    "twitter": "@musicmeetsvideo",
-    "facebook": "MusicMeetsVideo",
-    "linkedin": "2642078"
+    "description": "Special care for special needs. Firs- of-its-kind disability care, in an easy app.",
+    "logo": "joshin_logo.png",
+    "website": "https://docstation.co",
+    "twitter": "@joshincare",
+    "facebook": "joshincare",
+    "linkedin": "joshincare"
+  },
+  {
+    "name": "Molecula",
+    "type": "single",
+    "description": "Data virtualization platform that enables enterprises to make their data ready for Artificial Intelligence (AI).",
+    "logo": "molecula_logo.png",
+    "website": "",
+    "twitter": "@molecula",
+    "facebook": "",
+    "linkedin": ""
   },
   {
     "name": "Nebulab",
@@ -141,16 +181,6 @@
     }]
   },
   {
-    "name": "Remark",
-    "type": "single",
-    "description": "Review and approval tool for videos with any device, anywhere.",
-    "logo": "remark_logo.png",
-    "website": "https://remarkhq.com",
-    "twitter": "@RemarkHQ",
-    "facebook": "",
-    "linkedin": ""
-  },
-  {
     "name": "Stoplight",
     "type": "single",
     "description": "Removing the hassle from API strategy via a modular API toolkit.",
@@ -169,5 +199,15 @@
     "twitter": "@unchainedcap",
     "facebook": "",
     "linkedin": ""
+  },
+  {
+    "name": "Valkyrie Intelligence",
+    "type": "single",
+    "logo": "valkyrie_logo.png",
+    "description": "Applied data science and strategy consulting.",
+    "website": "https://www.valkyrie.ai",
+    "twitter": "@ValkyrieIntel",
+    "facebook": "ValkyrieIntelligence",
+    "linkedin": "ValkyrieIntelligence"
   }
 ]
