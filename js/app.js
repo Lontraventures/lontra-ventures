@@ -37,13 +37,13 @@
       author: 'Rob Hirschfeld',
       position: 'CEO/Founder, RackN'
     }, {
-      quote: 'Most investors talk about \'adding value, Lontra does',
-      author: 'Paul Murphy',
-      position: 'CEO/Founder, Clarify'
+      quote: 'Lontra is one of our biggest advocates. They took time to understand our business deeply and have helped us navigate complex issues and relationships with customers, partners, and competitors.',
+      author: 'Sam Anderegg',
+      position: 'CEO/Founder, DocStation'
     }, {
       quote: 'Andrea is one of the best people I have known, who is always willing to help and knows everyone.',
       author: 'Subbu Rama',
-      position: 'CEO/Co-Founder, Bitfusion'
+      position: 'Chairman/Co-Founder, Bitfusion'
     }, {
       quote: 'Andrea is hyper networked in Austin. If you need better connections, more intros, or want to expand your team, Andrea can help.  She rocks.',
       author: 'James Davison',
