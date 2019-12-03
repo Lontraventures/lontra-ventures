@@ -30,23 +30,30 @@
     "linkedin": "3305504"
   },
   {
-    "name": "Bitfusion",
-    "type": "single",
+    "name": "Bitfusion acquired by VMWare",
+    "type": "multi",
     "description": "Faster, more efficient infrastructure for AI, Deep Learning, and beyond.",
-    "logo": "bitfusion_logo.png",
-    "website": "http://www.bitfusion.io/",
-    "twitter": "@bitfusionio",
-    "facebook": "bitfusionio",
-    "linkedin": "6424383"
+    "twitter": "@VMWare",
+    "facebook": "vmware",
+    "linkedin": "VMWare",
+    "nodes": [{
+      "name": "Bitfusion",
+      "website": "https://www.vmware.com/",
+      "logo": "bitfusion_logo.png"
+    }, {
+      "name": "VMWare",
+      "website": "https://www.vmware.com/",
+      "logo": "VMWare-logo.png"
+    }]
   },
   {
-    "name": "BlazingDB",
+    "name": "BlazingSQL",
     "type": "single",
     "description": "High performance data warehouse. High performance SQL on petabyte scale needs.",
-    "logo": "blazingdb_logo_b.png",
-    "website": "https://blazingdb.com",
-    "twitter": "@blazingdb",
-    "facebook": "blazingdb",
+    "logo": "BlazingSQL_logo.png",
+    "website": "https://blazingsql.com",
+    "twitter": "@blazingsql",
+    "facebook": "blazingsql",
     "linkedin": "10078142"
   },
   {
@@ -83,12 +90,12 @@
     "name": "Experiment Engine acquired by Optimizely",
     "type": "multi",
     "description": "Powering the world’s most trusted experimentation platform.",
-    "twitter": "@expengine",
-    "facebook": "ExperimentEngine",
-    "linkedin": "4818335",
+    "twitter": "@Optimizely",
+    "facebook": "Optimizely",
+    "linkedin": "Optimizely",
     "nodes": [{
       "name": "Experiment Engine",
-      "website": "https://www.experimentengine.com/",
+      "website": "https://www.optimizely.com/",
       "logo": "experimentengine_logo.png"
     }, {
       "name": "Optimizely",
@@ -111,7 +118,7 @@
     "type": "single",
     "description": "Special care for special needs. Firs- of-its-kind disability care, in an easy app.",
     "logo": "joshin_logo.png",
-    "website": "https://docstation.co",
+    "website": "https://joshin.com/",
     "twitter": "@joshincare",
     "facebook": "joshincare",
     "linkedin": "joshincare"
@@ -121,7 +128,7 @@
     "type": "single",
     "description": "Data virtualization platform that enables enterprises to make their data ready for Artificial Intelligence (AI).",
     "logo": "molecula_logo.png",
-    "website": "",
+    "website": "https://www.molecula.com/",
     "twitter": "@molecula",
     "facebook": "",
     "linkedin": "https://www.linkedin.com/company/molecula-corp/"
@@ -137,14 +144,21 @@
     "linkedin": "4043712"
   },
   {
-    "name": "Olono",
-    "type": "single",
+    "name": "Olono acquired by Insightsquared",
+    "type": "multi",
     "description": "Bringing AI to sales professionals.",
-    "logo": "olono_logo.png",
-    "website": "http://www.olono.ai",
-    "facebook": "",
-    "twitter": "@OlonoAi",
-    "linkedin": "24798029"
+    "facebook": "insightsquared",
+    "twitter": "@insightsquared",
+    "linkedin": "insightsquared",
+    "nodes": [{
+      "name": "Olono",
+      "website": "https://www.insightsquared.com/",
+      "logo": "olono_logo.png"
+    }, {
+      "name": "Insightsquared",
+      "website": "https://www.insightsquared.com/",
+      "logo": "insightsquared-logo.png"
+    }]
   },
   {
     "name": "OneModel",
@@ -209,5 +223,12 @@
     "twitter": "@ValkyrieIntel",
     "facebook": "ValkyrieIntelligence",
     "linkedin": "ValkyrieIntelligence"
+  },
+  {
+    "name": "Ostiio",
+    "type": "single",
+    "logo": "Ostiio_logo.png",
+    "description": "Developing a novel approach to correct skeletal deformities and deficiencies utilizing a fully implantable, magnetically-driven, bony distraction device. A Penn Center for Innovation company.",
+    "website": "https://www.pennhealthx.com/ostiio"
   }
 ]
