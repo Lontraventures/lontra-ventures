@@ -131,17 +131,7 @@
     "website": "https://www.molecula.com/",
     "twitter": "@molecula",
     "facebook": "",
-    "linkedin": "https://www.linkedin.com/company/molecula-corp/"
-  },
-  {
-    "name": "Nebulab",
-    "type": "single",
-    "description": "A data management platform for scientists",
-    "logo": "nebulab_logo.png",
-    "website": "http://nebulab.io",
-    "twitter": "@nebulab_io",
-    "facebook": "",
-    "linkedin": "4043712"
+    "linkedin": "molecula-corp"
   },
   {
     "name": "Olono acquired by Insightsquared",
