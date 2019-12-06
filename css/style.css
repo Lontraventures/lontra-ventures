@@ -87,7 +87,7 @@ body {
   }
 
   nav .items a:hover {
-    
+
   }
 
   nav .menu-button {
@@ -623,7 +623,7 @@ h2.header {
 
   .profile-content {
     flex-direction: column;
-  } 
+  }
 }
 
 .portfolio-entry header .row > a {
@@ -677,7 +677,7 @@ h2.header {
 
 .portfolio-entry header .multi img {
   height: 80px;
-  max-height: 80px;
+  /* max-height: 80px; */
 }
 
 .portfolio-entry header {
@@ -705,7 +705,7 @@ h2.header {
 }
 
 .service header {
-  font-size: 25px;  
+  font-size: 25px;
   font-weight: bold;
   text-align: center;
 }
