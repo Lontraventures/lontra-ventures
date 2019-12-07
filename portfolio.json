@@ -205,14 +205,23 @@
     "linkedin": ""
   },
   {
-    "name": "Valkyrie Intelligence",
-    "type": "single",
-    "logo": "valkyrie_logo.png",
+    "type": "multi",
     "description": "Applied data science and strategy consulting.",
-    "website": "https://www.valkyrie.ai",
     "twitter": "@ValkyrieIntel",
     "facebook": "ValkyrieIntelligence",
-    "linkedin": "ValkyrieIntelligence"
+    "linkedin": "ValkyrieIntelligence",
+    "nodes": [{
+      "class": "primary-logo",
+      "containerclass": "containerclass",
+      "name": "Valkyrie Intelligence",
+      "website": "https://www.valkyrie.ai",
+      "logo": "valkyrie_logo.png"
+    }, {
+      "class": "primary-text-logo",
+      "name": "Valkyrie Text",
+      "website": "https://www.valkyrie.ai",
+      "logo": "valkyrie_logo_text.png"
+    }]
   },
   {
     "name": "Ostiio",
