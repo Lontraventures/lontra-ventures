@@ -98,8 +98,8 @@
 
       <header ng-if="entry.type === 'multi'">
         <h1 class="multi logo-container">
-          <a ng-repeat="node in entry.nodes" ng-href="{{node.website}}" target="_blank" alt="{{node.name}}">
-            <img class="portfolio-logo" title="{{node.name}}" src="res/logos/{{node.logo}}" />
+          <a ng-repeat="node in entry.nodes" class="{{node.containerclass}}" ng-href="{{node.website}}" target="_blank" alt="{{node.name}}">
+            <img class="portfolio-logo {{node.class || ''}}" title="{{node.name}}" src="res/logos/{{node.logo}}" />
             <!-- <span>{{node.name}}<i class="material-icons">link</i></span> -->
           </a>
         </h1>
