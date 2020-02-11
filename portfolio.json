@@ -77,6 +77,16 @@
     "linkedin": "6672088"
   },
   {
+    "name": "DigniFi",
+    "type": "single",
+    "logo": "dignifi_logo.png",
+    "description": "Building a financial technology company providing access to automotive financing solutions to consumers; powered by advanced automotive analytics.",
+    "website": "https://www.dignifi.com/",
+    "twitter": "@dignifi_loans",
+    "facebook": "https://www.facebook.com/dignifiloans/",
+    "linkedin": "https://www.linkedin.com/company/dignifi/"
+  },
+  {
     "name": "Docstation",
     "type": "single",
     "description": "A patient care platform for pharmacists.",
