@@ -161,6 +161,13 @@
     "linkedin": "6428280"
   },
   {
+    "name": "Ostiio",
+    "type": "single",
+    "logo": "Ostiio_logo.png",
+    "description": "Developing a novel approach to correct skeletal deformities and deficiencies utilizing a fully implantable, magnetically-driven, bony distraction device. A Penn Center for Innovation company.",
+    "website": "https://www.pennhealthx.com/ostiio"
+  },
+  {
     "name": "RackN",
     "type": "single",
     "description": "Enabling multicloud mobility.",
@@ -222,12 +229,5 @@
       "website": "https://www.valkyrie.ai",
       "logo": "valkyrie_logo_text.png"
     }]
-  },
-  {
-    "name": "Ostiio",
-    "type": "single",
-    "logo": "Ostiio_logo.png",
-    "description": "Developing a novel approach to correct skeletal deformities and deficiencies utilizing a fully implantable, magnetically-driven, bony distraction device. A Penn Center for Innovation company.",
-    "website": "https://www.pennhealthx.com/ostiio"
   }
 ]
