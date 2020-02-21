@@ -114,6 +114,16 @@
     }]
   },
   {
+    "name": "Gen X Comm",
+    "type": "single",
+    "description": "Revolutionizing wireless communications via University of Texas technology.",
+    "logo": "genxcom_logo.png",
+    "website": "https://www.genxcomm.com/",
+    "twitter": "@GenXComm",
+    "facebook": "",
+    "linkedin": "genxcomm"
+  },
+  {
     "name": "IronCore Labs",
     "type": "single",
     "description": "Promoting a customer controlled data solution.",
