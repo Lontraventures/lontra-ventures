@@ -232,6 +232,16 @@
     "linkedin": ""
   },
   {
+    "name": "VitalFlo",
+    "type": "single",
+    "logo": "vital-flo.png",
+    "description": "Making digital assets more useful.",
+    "website": "http://vitalflohealth.com/",
+    "twitter": "@vitalflohealth",
+    "facebook": "https://www.facebook.com/vitalflohealth",
+    "linkedin": "vitalflohealth"
+  },
+  {
     "type": "multi",
     "description": "Applied data science and strategy consulting.",
     "twitter": "@ValkyrieIntel",
