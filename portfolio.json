@@ -198,20 +198,6 @@
     "linkedin": "4809859"
   },
   {
-    "type": "multi",
-    "name": "RealCo Acceleratator and Geekdom Fund",
-    "description": "Startup fund and accelerator that specializes in internet-tech related B2B startups.",
-    "nodes": [{
-      "name": "RealCo Accelerator",
-      "website": "https://angel.co/realco-accelerator",
-      "logo": "realco_logo.jpg"
-    }, {
-      "name": "Geekdom Fund",
-      "website": "http://www.geekdomfund.com/",
-      "logo": "geekdomfund_logo.png"
-    }]
-  },
-  {
     "name": "Stoplight",
     "type": "single",
     "description": "Removing the hassle from API strategy via a modular API toolkit.",
@@ -240,24 +226,5 @@
     "twitter": "@vitalflohealth",
     "facebook": "https://www.facebook.com/vitalflohealth",
     "linkedin": "vitalflohealth"
-  },
-  {
-    "type": "multi",
-    "description": "Applied data science and strategy consulting.",
-    "twitter": "@ValkyrieIntel",
-    "facebook": "ValkyrieIntelligence",
-    "linkedin": "ValkyrieIntelligence",
-    "nodes": [{
-      "class": "primary-logo",
-      "containerclass": "containerclass",
-      "name": "Valkyrie Intelligence",
-      "website": "https://www.valkyrie.ai",
-      "logo": "valkyrie_logo.png"
-    }, {
-      "class": "primary-text-logo",
-      "name": "Valkyrie Text",
-      "website": "https://www.valkyrie.ai",
-      "logo": "valkyrie_logo_text.png"
-    }]
   }
 ]
