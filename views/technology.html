@@ -61,6 +61,7 @@
   </div>
 </div>
 
+<!--
 <div ng-controller="PortfolioCtrl as portfolio" class="portfolio container">
   <div ng-show="portfolio.loading">
     <h2 class="header">Loading Portfolio</h2>
@@ -75,10 +76,6 @@
           </a>
         </h1>
         <h1 class="row">
-          <!-- <a ng-href="{{entry.website}}" target="_blank">
-            {{entry.name}}
-            <i class="material-icons">link</i>
-          </a> -->
           <div class="icons">
             <a ng-href="https://facebook.com/{{entry.facebook}}" title="{{entry.facebook}}" target="_blank" ng-if="entry.facebook">
               <img src="res/icons/icon_facebook.png">
@@ -100,7 +97,6 @@
         <h1 class="multi logo-container">
           <a ng-repeat="node in entry.nodes" class="{{node.containerclass}}" ng-href="{{node.website}}" target="_blank" alt="{{node.name}}">
             <img class="portfolio-logo {{node.class || ''}}" title="{{node.name}}" src="res/logos/{{node.logo}}" />
-            <!-- <span>{{node.name}}<i class="material-icons">link</i></span> -->
           </a>
         </h1>
         <h1 class="row">
@@ -127,6 +123,7 @@
   </div>
   <div ng-show="portfolio.error">
     <h2 class="header">Error Loading Portfolio</h2>
-    <i class="material-icons" onclick="location.reload();">retry</i> <!-- I feel so evil -->
-  </div>
-</div>
+    <i class="material-icons" onclick="location.reload();">retry</i>
+  </div> -->
+<!-- </div> -->
+
