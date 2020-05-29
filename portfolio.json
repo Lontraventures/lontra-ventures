@@ -226,5 +226,15 @@
     "twitter": "@vitalflohealth",
     "facebook": "vitalflohealth",
     "linkedin": "vitalflohealth"
+  },
+  {
+    "name": "BrilliantMD",
+    "type": "single",
+    "logo": "brilliantMD.png",
+    "description": "Using AI to provide transparecy to healthcare data",
+    "website": "/",
+    "twitter": "",
+    "facebook": "",
+    "linkedin": ""
   }
 ]
