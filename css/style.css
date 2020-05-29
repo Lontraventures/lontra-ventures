@@ -235,11 +235,11 @@ footer .copy {
   justify-content: center;
   overflow: hidden;
 }
-
+/*
 .split-container.short {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
   height: 200px;
-}
+} */
 
 .split-side {
   align-items: center;
@@ -254,9 +254,9 @@ footer .copy {
 }
 
 
-.split-side:hover {
+/* .split-side:hover {
   flex-grow: 1.2;
-}
+} */
 
 .split-side .split-content {
   align-items: center;
@@ -370,6 +370,125 @@ footer .copy {
     width: 100%;
   }
 }
+
+/* css where we add third image start */
+
+.split-container1 {
+  align-items: stretch;
+  background-color: #000;
+  display: flex;
+  flex-direction: row;
+  height: 500px;
+  justify-content: center;
+  overflow: hidden;
+}
+.split-container.short {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  height: 200px;
+}
+.split-side1 {
+  align-items: center;
+  background-color: black;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 0.7;
+  justify-content: center;
+  position: relative;
+  transition: all 0.5s;
+}
+.split-side1:hover {
+  flex-grow: 1;
+}
+.split-side1 .split-content1 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 170px;
+  justify-content: center;
+  text-align: center;
+  align-self: stretch;
+  z-index: 1;
+}
+.split-content1 .logo {
+  max-width: 70%;
+}
+.split-side1 > img {
+  height: 100%;
+  left: 0;
+  object-fit: cover;
+  opacity: 0.6;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 0;
+}
+.split-side1 h2 {
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
+}
+.split-side1 .description1 {
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 200;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
+  /* width: 40vw; */
+}
+@media screen and (min-width: 800px) {
+  .split-side1 {
+    border-right: 4px solid white;
+  }
+}
+.split-side1 .peek-button1 {
+  background: rgba(255, 255, 255, 0);
+  border: thin solid white;
+  border-radius: 50%;
+  color: #fff;
+  font-family: 'Material Icons';
+  font-size: 20px;
+  margin: 4px;
+  padding: 8px;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+.split-side1 .peek-button1:hover {
+  background: rgba(255, 255, 255, 0.1);
+  transform: scale(1.2);
+}
+@media screen and (max-width: 800px) {
+  .split-container1 {
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+  }
+  .split-side1:first-child {
+    border-bottom: 4px solid white;
+    border-right: none;
+  }
+  .short .split-side1 {
+    border-bottom: none;
+  }
+  .split-side1 .split-content1 {
+    height: 100%;
+  }
+  .split-side1 .split-content1.cover {
+    font-size: 20px;
+  }
+  .split-side1 .description {
+    width: 100%;
+  }
+}
+
+/* css where we add third image  end*/
+
+
+
+
+
+
 
 .description-bg {
   background-color: #eee;
@@ -777,3 +896,13 @@ ul {
   }
 
 }
+
+
+
+
+
+
+
+
+
+
