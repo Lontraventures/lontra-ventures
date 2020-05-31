@@ -2,66 +2,12 @@
 <div class="split-container short">
   <div class="split-side">
     <div class="split-content cover">
-      Technology
+      Portfolio & Partners
     </div>
     <img src="res/split-tech-bg.jpg"/>
   </div>
 </div>
-<div class="profile container">
-  <div class="profile-content">
-    <div class="profile-picture">
-      <img src="res/andrea_headshot2.jpeg">
-    </div>
-    <div class="profile-info">
-      <header>Andrea Kalmans <span class="subhead">Leader, Technology Practice</span></header>
-      <content>
-        <section class="block">
-          <p class="contact-info">
-            <a href="tel:1-512-423-4688">
-              <i class="material-icons">phone</i>
-              <span>(512) 423-4688</span>
-            </a>
-            <a href="mailto:akalmans@lontraventures.com">
-              <i class="material-icons">email</i>
-              <span>akalmans@lontraventures.com</span>
-            </a>
-          </p>
-          <p>
-            Andrea builds the Technology portfolio with passion and energy as well as focus and discipline. At her core, she
-            embraces founder friendly ideals and practices. Andrea partners with founders tackling massive market opportunities and
-            explosive growth rates primarily targeting enterprise sales. The portfolio is primarily targeted in: AI/ML, developer
-            tools, high performance computing, IT infrastructure, security and web optimization with delivery models ranging from
-            SaaS and Enterprise Sales.
-          </p>
-          <p>
-            Andrea’s strengths reside in identifying emerging trends and finding the best people to deliver that innovation. In her
-            advising capacity, Andrea works side-by-side founders in crafting messaging to best drive sales business development as
-            well as to achieve product/market fit. Andrea spends her time at innovation hubs such as Techstars and Capital Factory.
-            Prior to joining Lontra Ventures, Andrea ran a $700 M Global P&L for Dell and worked in the Media Investment Bank of
-            Salomon Smith Barney in NYC. She holds an MBA from UT, Austin and degrees in Finance/Economics from UW-Madison where she
-            graduated Phi Beta Kappa.
-          </p>
-        </section>
-      </content>
-      <footer class="social">
-        <a href="https://www.linkedin.com/in/akalmans" target="_blank">
-          <img src="res/icons/icon_linkedin.png">
-        </a>
-        <a href="https://www.facebook.com/andrea.kalmans" target="_blank">
-          <img src="res/icons/icon_facebook.png">
-        </a>
-        <a href="https://twitter.com/akalmans" target="_blank">
-          <img src="res/icons/icon_twitter.png">
-        </a>
-        <a href="https://medium.com/@akalmans" target="_blank">
-          <img src="res/icons/icon_medium.png">
-        </a>
-      </footer>
-    </div>
-  </div>
-</div>
 
-<!--
 <div ng-controller="PortfolioCtrl as portfolio" class="portfolio container">
   <div ng-show="portfolio.loading">
     <h2 class="header">Loading Portfolio</h2>
@@ -76,6 +22,10 @@
           </a>
         </h1>
         <h1 class="row">
+          <!-- <a ng-href="{{entry.website}}" target="_blank">
+            {{entry.name}}
+            <i class="material-icons">link</i>
+          </a> -->
           <div class="icons">
             <a ng-href="https://facebook.com/{{entry.facebook}}" title="{{entry.facebook}}" target="_blank" ng-if="entry.facebook">
               <img src="res/icons/icon_facebook.png">
@@ -97,6 +47,7 @@
         <h1 class="multi logo-container">
           <a ng-repeat="node in entry.nodes" class="{{node.containerclass}}" ng-href="{{node.website}}" target="_blank" alt="{{node.name}}">
             <img class="portfolio-logo {{node.class || ''}}" title="{{node.name}}" src="res/logos/{{node.logo}}" />
+            <!-- <span>{{node.name}}<i class="material-icons">link</i></span> -->
           </a>
         </h1>
         <h1 class="row">
@@ -123,7 +74,6 @@
   </div>
   <div ng-show="portfolio.error">
     <h2 class="header">Error Loading Portfolio</h2>
-    <i class="material-icons" onclick="location.reload();">retry</i>
-  </div> -->
-<!-- </div> -->
-
+    <i class="material-icons" onclick="location.reload();">retry</i> <!-- I feel so evil -->
+  </div>
+</div>
