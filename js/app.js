@@ -16,8 +16,8 @@
     .when('/', {
       templateUrl: 'views/home.html'
     })
-    .when('/technology', {
-      templateUrl: 'views/technology.html'
+    .when('/portfolio', {
+      templateUrl: 'views/portfolio.html'
     })
     .when('/technology', {
       templateUrl: 'views/technology.html'
