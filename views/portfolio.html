@@ -2,7 +2,7 @@
 <div class="split-container short">
   <div class="split-side">
     <div class="split-content cover">
-      Portfolio & Partners
+      Portfolio
     </div>
     <img src="res/split-tech-bg.jpg"/>
   </div>
@@ -13,7 +13,7 @@
     <h2 class="header">Loading Portfolio</h2>
   </div>
   <div ng-hide="portfolio.loading || portfolio.error">
-    <h2 id="portfolio" class="header">Portfolio &amp; Partners</h2>
+    <h2 id="portfolio" class="header">Portfolio</h2>
     <div class="card portfolio-entry" ng-repeat="entry in portfolio.entries">
       <header ng-if="entry.type === 'single'">
         <h1 class="row logo-container">
