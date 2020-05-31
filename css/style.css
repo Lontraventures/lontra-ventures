@@ -896,13 +896,6 @@ ul {
   }
 
 }
-
-
-
-
-
-
-
-
-
-
+.blue-overlay {
+  background: rgb(0, 150, 243);
+}
