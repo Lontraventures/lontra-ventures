@@ -57,6 +57,16 @@
     "linkedin": "10078142"
   },
   {
+    "name": "BrilliantMD",
+    "type": "single",
+    "logo": "brilliantMD.png",
+    "description": "Using AI to provide transparecy to healthcare data",
+    "website": "/",
+    "twitter": "",
+    "facebook": "",
+    "linkedin": ""
+  },
+  {
     "name": "Clarify",
     "type": "single",
     "description": "Applying AI to audio analytics.",
@@ -226,15 +236,5 @@
     "twitter": "@vitalflohealth",
     "facebook": "vitalflohealth",
     "linkedin": "vitalflohealth"
-  },
-  {
-    "name": "BrilliantMD",
-    "type": "single",
-    "logo": "brilliantMD.png",
-    "description": "Using AI to provide transparecy to healthcare data",
-    "website": "/",
-    "twitter": "",
-    "facebook": "",
-    "linkedin": ""
   }
 ]
