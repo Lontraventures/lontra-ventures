@@ -6,7 +6,7 @@
       $('#navbar').addClass('top');
     } else if (scroll >= 5 && hasClass) {
       $('#navbar').removeClass('top');
-    } 
+    }
   }
 
   var app = angular.module('app', ['ngRoute', 'slick']);
@@ -43,11 +43,11 @@
     }, {
       quote: 'Andrea is one of the best people I have known, who is always willing to help and knows everyone.',
       author: 'Subbu Rama',
-      position: 'Chairman/Co-Founder, Bitfusion'
+      position: 'Co-founder of Bitfusion (exit to VMware)'
     }, {
       quote: 'Andrea is hyper networked in Austin. If you need better connections, more intros, or want to expand your team, Andrea can help.  She rocks.',
       author: 'James Davison',
-      position: 'Co-Founder, Nexd'
+      position: 'Co-founder of Olono (exit to InsightSquared)'
     }, {
       quote: 'I\’ve known and worked with Andrea since 2013 and am continually impressed with her.  She’s a very hands on investor who is incredibly smart, very optimistic and balanced with the right amount of transparent pragmatism.',
       author: 'Amos Schwartzfarb',
@@ -66,7 +66,7 @@
     portfolio.load = function() {
       portfolio.loading = true;
       portfolio.error = false;
-      portfolio.portfolio = 
+      portfolio.portfolio =
 
       $http.get('portfolio.json?v1')
         .then(function(resp) {
