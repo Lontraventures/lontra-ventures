@@ -208,6 +208,16 @@
     "linkedin": "4809859"
   },
   {
+    "name": "Return Safe",
+    "type": "single",
+    "description": "Building a BioSecurity company offering screening & contact tracing technology to protect your business from COVID-19.",
+    "logo": "return_safe.png",
+    "website": "https://rackn.com/",
+    "twitter": "@ReturnSafe1",
+    "facebook": "returnsafer",
+    "linkedin": "returnsafe"
+  },
+  {
     "name": "Stoplight",
     "type": "single",
     "description": "Removing the hassle from API strategy via a modular API toolkit.",
